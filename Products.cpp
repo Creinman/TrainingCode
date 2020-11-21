@@ -5,8 +5,8 @@ struct Products
 {
 public:
 
-	std::string name;
-	double price;  // rub
+  std::string name;
+  double price;  
   int quantity = 0;
 
   void addQuantity(int inputQuantity) {
@@ -57,7 +57,5 @@ int main() {
     }
   }
   printf("Итог: %.1f", totalSumm);
- // std::cout<<product[1].quantity;
-  //printf("%.2f", product.price);
   return 0;
 }
